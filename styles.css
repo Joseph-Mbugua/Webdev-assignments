@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: auto;
   padding: auto;
-  width: 100%;
+  max-width: 100%;
 
 }
 
@@ -12,7 +12,7 @@ header {
   text-align: center;
   padding: auto;
   border-color: #333;
-  width: 100%;
+  max-width: 100%;
 
 }
 
@@ -20,7 +20,7 @@ header {
   background-color: #f3ecec;
   margin: 20px;
   padding: 20px;
-  width: 100%;
+  max-width: 100%;
 
 }
 
@@ -30,7 +30,7 @@ header {
   padding: 20px;
   align-items: center;
   text-align: center ;
-  width: 100%;
+  max-width: 100%;
 
 }
 
@@ -51,16 +51,17 @@ header {
   margin: auto;
   padding: auto;
   bottom: 0;
-  width: 100%;
+  max-width: 100%;
   text-align: center;
 }
 div{
-  width: 100%;
+  max-width: 100%;
 }
 fieldset {
   display: block;
+  max-block-size: 100
   margin: 2px;
-  width: 100%;
+  max-width: 100%;
   border: 1px solid #ccc;
   padding: auto;
   box-sizing:border-box;
@@ -91,7 +92,7 @@ legend {
 
   #introduction, #skills, #contact {
     padding: auto;
-    width: 100%;
+    max-width: 100%;
 
   }
 
@@ -99,7 +100,7 @@ legend {
     position: relative;
     padding-top: 10px;
     margin: auto;
-    width: 100%;
+    max-width: 100%;
 
   }
 }
