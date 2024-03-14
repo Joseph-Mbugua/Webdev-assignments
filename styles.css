@@ -60,7 +60,7 @@ legend {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100%) {
   header {
     padding: 10px;
   }
